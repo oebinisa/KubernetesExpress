@@ -1,7 +1,7 @@
 # Kubernetes Express
 
 This is a mini Kubernetes project.
-Create a Webapp with a database using Mongo-Express and MongoDB
+Description: Create a Webapp with a database using Mongo-Express and MongoDB
 
 ## Overview
 
@@ -127,7 +127,7 @@ Create a Webapp with a database using Mongo-Express and MongoDB
 
             kubectl get all | grep mongodb
 
-5.  Pod - Mongo Express Deployment Service
+5.  Pod - Mongo Express Deployment Service:
 
     a. Create the ConfigMap that would contain the MongoDB server address: mongo-configmap.yaml
 
@@ -186,7 +186,7 @@ Create a Webapp with a database using Mongo-Express and MongoDB
             kubectl get pod
             kubectl logs [podname]
 
-6.  Create MongoExpress External Service
+6.  Create MongoExpress External Service:
 
     - Final step: Create external service to help access Mongo-Express from the browser
 
